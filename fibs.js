@@ -11,4 +11,16 @@ function fibs(n) {
   return result
 }
 
+console.log("fibs (not recursive) input = 6", fibs(6))
+
 //recursive
+function fibsRecursive(n, array = [0, 1]) {
+  if (n <= 0) {
+    return array;
+  }
+
+  array.push(array[array.length - 1] + array[array.length - 2]);
+  return fibsRecursive(n - 1.5 , array);
+}
+
+console.log("fibs (recursive) input = 10", fibsRecursive(8));
