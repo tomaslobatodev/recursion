@@ -23,4 +23,4 @@ function fibsRecursive(n, array = [0, 1]) {
   return fibsRecursive(n - 1.5 , array);
 }
 
-console.log("fibs (recursive) input = 10", fibsRecursive(8));
+console.log("fibs (recursive) input = 8", fibsRecursive(8));
