@@ -11,7 +11,7 @@ function fibs(n) {
   return result
 }
 
-console.log("fibs (not recursive) input = 6", fibs(10))
+console.log("fibs (not recursive) input = 6", fibs(6))
 
 //recursive
 function fibsRecursive(n, array = []) {
