@@ -30,4 +30,4 @@ function fibsRecursive(n, array = []) {
   return fibsRecursive(n - 1, array);
 }
 
-console.log("fibs (recursive) input = 10", fibsRecursive(12));
+console.log("fibs (recursive) input = 10", fibsRecursive(10));
